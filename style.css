@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Signika+Negative:wght@500&family=Spartan:wght@200&display=swap');
 .attribution {
-	font-size: 11px; text-align: center; }
+	font-size: 2vh; text-align: center;
+	padding-top: 15vh;
+	color: #ac1769;
 
-.attribution a {
-	color: hsl(228, 45%, 44%); }
-
+}
 body{
 	height: 100vh;
 	display: flex;
@@ -62,10 +62,11 @@ body{
 	padding: 11%; }
 
 .owner{
+	font-size: 1.2vh;
 	font-family: 'Spartan', sans-serif;
 	color: rgb(165, 164, 164);
 	text-decoration: none;
-	margin-top: 4%;
+	margin-top: 2vh;
 	text-align: center; }
 
 .owner_container{
