@@ -5,6 +5,7 @@ const image = document.querySelector(".nft_image");
 const price = document.querySelector(".price");
 const time = document.querySelector(".time");
 const collection = document.querySelector(".collection");
+
 container.addEventListener("mousemove", (e) => {
 	let xAxis = (window.innerWidth / 2 - e.pageX) / 25;
 	let yAxis = (window.innerHeight / 2 - e.pageY) / 25;
@@ -25,4 +26,4 @@ container.addEventListener("mouseleave", (e) => {
 	time.style.transform = "translateZ(0px)";
 	collection.style.transform = "translateZ(0px)";
 	price.style.transform = "translateZ(0px)";
-  });
+});

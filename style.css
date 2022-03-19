@@ -5,6 +5,19 @@
 	color: #ac1769;
 
 }
+.nav_bar{
+	width: 100vh;
+}
+.element{
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	list-style: none;
+	justify-content: space-around;
+	align-items: flex-end;
+	padding: 1px 1px 10vh 1px;
+}
+
 body{
 	height: 100vh;
 	display: flex;
