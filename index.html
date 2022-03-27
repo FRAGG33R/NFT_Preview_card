@@ -1,45 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/e5345cd81b.js" crossorigin="anonymous"></script> 
-  <link rel="icon" type="image/png" sizes="32x32" href="images/hive-brands.svg">
-  <link rel="stylesheet" href="style.css"></link>
-  <title>NFT preview card component</title>
-</head>
-<body>
-	<div class="nav_bar">
-		<ul class="element">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Gallery</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-	</div>
-	<div class="card">
-	<div class="card_content">
-		<img class="nft_image" src="images/monkey.jpeg">
-		<div class="nft_title"><h2>Bored Ape Yacht Club #320</h2></div>
-		<div class="collection"></h2>The Bored Ape Yacht Club is a collection of 10,000 unique Bored Ape NFTs unique digital collectibles living on the Ethereum blockchain</h2></div>
-		<div class="price_time">
-			<div class="price">
-				<svg width="19" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg>
-				</h3>88.727 ETH</h3>
-			</div>
-			<div class="time">
-				<svg width="20" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>
-				</h4>3 days left</h4>
-			</div>
+  <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/e5345cd81b.js" crossorigin="anonymous"></script> 
+	<link rel="icon" type="image/png" sizes="32x32" href="images/hive-brands.svg">
+	<link rel="stylesheet" href="style.css"></link>
+	<title>NFT preview card component</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  </head>
+  <body>
+	  <nav>
+		<div class="nav_bar">
+			<ul class="element">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
 		</div>
-		<div class="owner_container">
-			<div class="owner"></h4>Owned by <a href="https://opensea.io/BetOnline_ag" target="_blank" >BetOnline_ag</a></h4></div> <!-- link_name -->
-			<img class="owenr_image" src="images/image-avatar.png">
+	  </nav>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+			<div class="card">
+				<div class="card_content">
+					<img class="nft_image" src="images/monkey.jpeg">
+					<div class="nft_title"><h2>Bored Ape Yacht Club #320</h2></div>
+					<div class="collection"></h2>The Bored Ape Yacht Club is a collection of 10,000 unique Bored Ape NFTs unique digital collectibles living on the Ethereum blockchain</h2></div>
+					<div class="price_time">
+						<div class="price">
+							<svg width="19" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg>
+							</h3>88.727 ETH</h3>
+						</div>
+						<div class="time">
+							<svg width="20" height="15" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>
+							</h4>3 days left</h4>
+						</div>
+					</div>
+					<div class="owner_container">
+						<div class="owner"></h4>Owned by <a href="https://opensea.io/BetOnline_ag" target="_blank" >BetOnline_ag</a></h4></div> <!-- link_name -->
+						<img class="owenr_image" src="images/image-avatar.png">
+					</div>
+				</div>
+				</div>
 		</div>
-	</div>
-	</div>
-  <div class="attribution">
-    Coded by <a href="#">Aissvm .</a>
-  </div>
-  <script src="script.js"></script>
-</body>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide">Slide 5</div>
+        <div class="swiper-slide">Slide 6</div>
+        <div class="swiper-slide">Slide 7</div>
+        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide">Slide 9</div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
 </html>
