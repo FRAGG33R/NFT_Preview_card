@@ -34,7 +34,7 @@ function multiplyNode(node, count, deep) {
     }
 }
 
-multiplyNode(document.querySelector('.swiper-slide'), 5, true);
+multiplyNode(document.querySelector('.swiper-slide'), 2, true);
 
 var swiper = new Swiper(".mySwiper", {
 	navigation: {
