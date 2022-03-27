@@ -65,9 +65,11 @@ body{
 .collection{
 	font-family: 'Spartan', sans-serif;
 	font-size: 1.5vh;
-	padding-left: 11% ;
+	padding-left: 11%;
 	padding-right: 1%;
-	color: rgb(165, 164, 164); }
+	text-align: left;
+	color: rgb(165, 164, 164);
+}
 
 .price{
 	font-family: 'Signika Negative', sans-serif; }
