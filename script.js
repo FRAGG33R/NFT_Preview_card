@@ -27,3 +27,9 @@ container.addEventListener("mouseleave", (e) => {
 	collection.style.transform = "translateZ(0px)";
 	price.style.transform = "translateZ(0px)";
 });
+var swiper = new Swiper(".mySwiper", {
+	navigation: {
+	  nextEl: ".swiper-button-next",
+	  prevEl: ".swiper-button-prev",
+	},
+});
