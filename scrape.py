@@ -6,7 +6,7 @@ class nft:
 	def json_saver(save):
 		try:
 			with open('./exported.json', "a") as file:
-				json.dump(save, file)
+				json.dump(save, file, indent=4)
 		except:
 			print("Error occurred during saving output")
 			pass
