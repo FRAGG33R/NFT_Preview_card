@@ -1,4 +1,6 @@
 const http = require("https");
+const { connected } = require("process");
+const { compileFunction } = require("vm");
 
 const options = {
   "method": "GET",
@@ -20,8 +22,14 @@ const req = http.request(options, (res) => {
     const body = Buffer.concat(chunks);
     let result = body.toString();
     result = JSON.parse(result);
-    console.log(result);
-
+    for(let i = 0; i < 10; i++)
+    {
+        let isnum = /^\d+$/.test(result.nfts[i].token_id);
+        if (isnum)
+        {
+            //send request
+        }
+    }
 });
 });
 
