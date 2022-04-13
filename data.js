@@ -1,5 +1,7 @@
 var http = require("https");
 var token_index = 0;
+let p = {FileSystemDirectoryEntry:"HEllo"};
+const MyData = [];
 function req_()
 {
   const options = {
@@ -23,7 +25,8 @@ function req_()
       const body = Buffer.concat(chunks);
       let result = body.toString();
       result = JSON.parse(result);
-      console.log(result);
+      if (result.response == 'OK')
+        MyData.push(result);
     });
   }); 
   req.end();
