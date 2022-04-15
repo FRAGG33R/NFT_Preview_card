@@ -29,7 +29,7 @@ fetch("/exported.json")
 			</div>
 			</div>
 			`;
-			node.parentNode.append(copy);
+			node.parentNode.insertBefore(copy, node);
 		}
 	}
 	multiplyNode(document.querySelector('.swiper-slide'), 100, true);
