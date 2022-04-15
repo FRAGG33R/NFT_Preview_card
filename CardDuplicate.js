@@ -32,7 +32,7 @@ fetch("/exported.json")
 			node.parentNode.append(copy);
 		}
 	}
-	multiplyNode(document.querySelector('.swiper-slide'), 20, true);
+	multiplyNode(document.querySelector('.swiper-slide'), 100, true);
 });
 var swiper = new Swiper(".mySwiper", {
 	navigation: {
