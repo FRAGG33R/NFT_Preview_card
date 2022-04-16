@@ -39,6 +39,7 @@ class nft:
 						},
 						'token_id' : token_id ,
 						'contract_address' : re['nft']['contract_address'],
+						'metadata' : re['nft']['metadata']['description'],
 						'owner' : re['owner'],
 						'img_link' :re['nft']['cached_file_url'] ,
 						'img_height' :re['nft']['file_information']['height'] ,
@@ -53,4 +54,4 @@ class nft:
 		return all_nfts
 
 
-print(nft.get_nft('0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d', 200))
+print(nft.get_nft('0x338be3d8d0209815601e72f7a04ac7f37d61564b', 50))

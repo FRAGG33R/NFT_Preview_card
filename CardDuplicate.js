@@ -11,7 +11,7 @@ fetch("/exported.json")
 			<div class="card_content">
 			<img class="nft_image" src="${jsondata[i].img_link}">
 			<div class="nft_title"><h2>${jsondata[i].prject.name} #${jsondata[i].token_id}</h2></div>
-			<div class="collection"></h2>The Bored Ape Yacht Club is a collection of 10,000 unique Bored Ape NFTs unique digital collectibles living on the Ethereum blockchain</h2></div>
+			<div class="collection"></h2>${jsondata[i].metadata}</h2></div>
 			<div class="price_time">
 			<div class="price">
 			<svg width="19" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg>
@@ -32,7 +32,7 @@ fetch("/exported.json")
 			node.parentNode.insertBefore(copy, node);
 		}
 	}
-	multiplyNode(document.querySelector('.swiper-slide'), 100, true);
+	multiplyNode(document.querySelector('.swiper-slide'), 150, true);
 });
 var swiper = new Swiper(".mySwiper", {
 	navigation: {
