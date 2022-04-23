@@ -1,3 +1,9 @@
+var swiper = new Swiper(".mySwiper", {
+	navigation: {
+	  nextEl: ".swiper-button-next",
+	  prevEl: ".swiper-button-prev",
+	},
+});
 fetch("/exported.json")
 .then(response => {
    return response.json();
@@ -33,10 +39,4 @@ fetch("/exported.json")
 		}
 	}
 	multiplyNode(document.querySelector('.swiper-slide'), 150, true);
-});
-var swiper = new Swiper(".mySwiper", {
-	navigation: {
-	  nextEl: ".swiper-button-next",
-	  prevEl: ".swiper-button-prev",
-	},
 });
