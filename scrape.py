@@ -54,4 +54,4 @@ class nft:
 		return all_nfts
 
 
-print(nft.get_nft('0x338be3d8d0209815601e72f7a04ac7f37d61564b', 50))
+print(nft.get_nft('0xd2f668a8461d6761115daf8aeb3cdf5f40c532c6', 50))

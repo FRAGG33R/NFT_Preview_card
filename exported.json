@@ -5,20 +5,6 @@
             "symbol": "GDOG",
             "type": "ERC721"
         },
-        "token_id": 1,
-        "contract_address": "0x6e9da81ce622fb65abf6a8d8040e460ff2543add",
-        "metadata": "The year is 2050. Humans are an interplanetary species and have all but abandoned the post-apocalyptic shatters of society on earth.",
-        "owner": "0x02c349ace1412e3ee40cc72f13ead686a7f08ae4",
-        "img_link": "https://storage.googleapis.com/sentinel-nft/raw-assets/c_0x6e9da81ce622fb65abf6a8d8040e460ff2543add_t_1_raw_asset.png",
-        "img_height": 4000,
-        "img_width": 4000
-    },
-    {
-        "prject": {
-            "name": "Gutter Dogs",
-            "symbol": "GDOG",
-            "type": "ERC721"
-        },
         "token_id": 2,
         "contract_address": "0x6e9da81ce622fb65abf6a8d8040e460ff2543add",
         "metadata": "The year is 2050. Humans are an interplanetary species and have all but abandoned the post-apocalyptic shatters of society on earth.",
